@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="edu.csulb.com.arttherapy.MainActivity">
+
+    <!-- This is the view on which we will draw. -->
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="edu.csulb.com.arttherapy.CanvasView"
+        android:id="@+id/touch_view"
+        android:layout_gravity="left|top"
+        android:background="#ffffff"
+        android:layout_weight="1" />
+
+</LinearLayout>
